@@ -1,0 +1,142 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2" xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000" >
+
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="9*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button  Grid.Column="0"  BorderBrush="Transparent" Background="Transparent" >
+                    <Image Source="https://assets.stickpng.com/images/588a64e7d06f6719692a2d11.png" Margin="12"/>
+                </Button>
+                <TextBox Grid.Column="2" Margin="18,18,18,18" Background="#FFDDDDDD" BorderBrush="Transparent" IsEnabled="False"></TextBox>
+
+
+            </Grid>
+
+            <Grid  Grid.Row="1">
+                <ListView Name="List_View" MouseDoubleClick="ListView_MouseDoubleClick" FontSize="14"  BorderBrush="Transparent" ItemsSource="{Binding People}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Column="0" Source="{Binding Avatar}" Width="100" Height="100" ></Image>
+                                <Label Grid.Column="1" Content="{Binding FullName}"></Label>
+                                <Label Grid.Column="2"  Content="{Binding Time}"></Label>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView >
+            </Grid>
+
+
+
+
+
+
+
+        </Grid>
+
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="9*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="9*"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label Name="Friend_Name" FontSize="12" FontWeight="Bold" Margin="4,4,4,27" Grid.RowSpan="2" Content="" ></Label>
+                        <Label Name="Is_online" Grid.Row="1" FontSize="10" Foreground="Blue" Margin="4"></Label>
+                    </Grid>
+
+                    <Button Grid.Column="1" BorderBrush="Transparent" Background="Transparent" Margin="9">
+                        <Image Source="https://thumb7.shutterstock.com/mosaic_250/169597876/565112086/stock-vector-vector-illustration-of-gray-search-icon-565112086.jpg"></Image>
+                    </Button>
+
+                    <Button Grid.Column="2" BorderBrush="Transparent" Background="Transparent" Margin="9" >
+                        <Image Source="https://cdn-icons-png.flaticon.com/128/8212/8212730.png"></Image>
+                    </Button>
+
+                </Grid>
+
+            </Grid>
+
+            <Image Grid.Row="1" Source="https://mir-s3-cdn-cf.behance.net/user/276/8f8017341656085.5cb3918353545.jpg" Stretch="Fill"/>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" >
+                <StackPanel Name="Stpl" VerticalAlignment="Bottom" >
+
+                </StackPanel>
+
+                        
+                        
+            </ScrollViewer>
+
+            <Grid x:Name="writing" Grid.Row="2" IsEnabled="False">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="9*"></ColumnDefinition>
+                    <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button BorderBrush="Transparent" Background="Transparent">
+                    <Image Source="https://img.freepik.com/free-icon/paper-clip_318-372725.jpg"></Image>
+                </Button>
+
+
+
+                <TextBox Name="Text_Box"  MouseLeave="TextBox_MouseLeave" MouseEnter="Text_Box_MouseEnter"  Grid.Column="1" Foreground="Gray" FontSize="20" BorderBrush="Transparent"  TextWrapping="Wrap" KeyDown="Text_Box_KeyDown"  >White a message</TextBox>
+
+                <emoji:Picker Name="Emoji"  Grid.Column="2" Picked="Picker_Picked" >
+                   
+                </emoji:Picker>
+
+
+                <Button Grid.Column="3"  BorderBrush="Transparent" Background="Transparent">
+                    <Image Source="https://png.pngtree.com/element_our/png_detail/20181206/microphone-vector-icon-png_262153.jpg"></Image>
+                </Button>
+
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
