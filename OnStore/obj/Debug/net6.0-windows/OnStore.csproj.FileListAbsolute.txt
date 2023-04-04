@@ -1,0 +1,54 @@
+C:\Users\nvale\source\repos\OnStore\bin\Debug\net6.0-windows\OnStore.exe
+C:\Users\nvale\source\repos\OnStore\bin\Debug\net6.0-windows\OnStore.deps.json
+C:\Users\nvale\source\repos\OnStore\bin\Debug\net6.0-windows\OnStore.runtimeconfig.json
+C:\Users\nvale\source\repos\OnStore\bin\Debug\net6.0-windows\OnStore.dll
+C:\Users\nvale\source\repos\OnStore\bin\Debug\net6.0-windows\OnStore.pdb
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.csproj.AssemblyReference.cache
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore_MarkupCompile.cache
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore_MarkupCompile.lref
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.g.resources
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.AssemblyInfoInputs.cache
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.AssemblyInfo.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.csproj.CoreCompileInputs.cache
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.dll
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\refint\OnStore.dll
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.pdb
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\OnStore.genruntimeconfig.cache
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\ref\OnStore.dll
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\Basket.g.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\Basket.baml
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\AddFood.g.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\AddFood.baml
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\EditFood.g.cs
+C:\Users\nvale\source\repos\OnStore\obj\Debug\net6.0-windows\EditFood.baml
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\bin\Debug\net6.0-windows\OnStore.exe
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\bin\Debug\net6.0-windows\OnStore.deps.json
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\bin\Debug\net6.0-windows\OnStore.runtimeconfig.json
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\bin\Debug\net6.0-windows\OnStore.dll
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\bin\Debug\net6.0-windows\OnStore.pdb
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.csproj.AssemblyReference.cache
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\AddFood.g.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\Basket.g.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\EditFood.g.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore_MarkupCompile.cache
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore_MarkupCompile.lref
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\AddFood.baml
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\Basket.baml
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\EditFood.baml
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.g.resources
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.AssemblyInfoInputs.cache
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.AssemblyInfo.cs
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.csproj.CoreCompileInputs.cache
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.dll
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\refint\OnStore.dll
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.pdb
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\OnStore.genruntimeconfig.cache
+C:\Users\nvale\Downloads\OneDrive\İş masası\Step\WPF\OnStore\obj\Debug\net6.0-windows\ref\OnStore.dll

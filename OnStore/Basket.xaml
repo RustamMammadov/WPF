@@ -1,0 +1,58 @@
+﻿<Window x:Class="OnStore.Basket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnStore"
+        mc:Ignorable="d"
+        Title="Basket" Height="450" Width="760">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label FontSize="30" Content="{Binding Sum}" HorizontalContentAlignment="Right"></Label>
+            <Label Grid.Column="1" Content="₼" FontSize="30" ></Label>
+            <Button FontSize="30" Background="red" Grid.Column="2" Click="Button_Click">Buy</Button>
+            
+        </Grid>
+        
+        <ListView Grid.Row="0" ItemsSource="{Binding basket}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <Grid Width="320" Height="320">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4*"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="4" Source="{Binding Picture}"></Image>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="{Binding Name}" FontSize="30" ></Label>
+                            <Label Grid.Column="1" Content="{Binding Price}" FontSize="30" ></Label>
+                            <Label Grid.Column="2" Content="₼" FontSize="30" ></Label>
+                            <Button VerticalContentAlignment="Top" BorderBrush="Transparent" Background="Transparent" Grid.Column="3" FontSize="36">+</Button>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

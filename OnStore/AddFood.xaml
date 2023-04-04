@@ -1,0 +1,35 @@
+﻿<Window x:Class="OnStore.AddFood"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnStore"
+        mc:Ignorable="d"
+        Title="AddFood" Height="320" Width="768" FontSize="24">
+    <Grid Margin="10" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="10">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Height="64" Width="200" Background="White" Margin="8" Grid.Column="0" Grid.Row="0">Food Name</Label>
+            <Label Height="64" Width="200" Background="White" Margin="8" Grid.Column="0" Grid.Row="1">Food Price</Label>
+            <Label Height="64" Width="200" Background="White" Margin="8" Grid.Column="0" Grid.Row="2">Food Picture Path</Label>
+
+            <TextBox  Background="White" Margin="8" Grid.Column="1" Grid.Row="0" x:Name="name_txt_box" Text="{Binding NewFood.Name , Mode =TwoWay }"  />
+            <TextBox Background="White" Margin="8" Grid.Column="1" Grid.Row="1" x:Name="price_txt_box"  Text="{Binding NewFood.Price , Mode =TwoWay }"  />
+            <TextBox Background="White" Margin="8" Grid.Column="1" Grid.Row="2" x:Name="picture_txt_box" Text="{Binding NewFood.Picture , Mode =TwoWay }" />
+
+        </Grid>
+        <Button Width="200" Background="Red" BorderBrush="Transparent" Grid.Row="1" Click="Button_Click">SAVE</Button>
+    </Grid>
+</Window>
